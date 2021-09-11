@@ -1,5 +1,5 @@
 # AWS-VAULT PROFILE #
-PROFILE=aws-terraform
+PROFILE=terraform
 
 # AWS #
 bash:

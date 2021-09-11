@@ -45,3 +45,9 @@ variable "PRIVATE_SUBNETS_CIDR" {
   type        = list(string)
   description = "Private subnet cidr values"
 }
+
+# EC2 #
+variable "EC2_AMI" {
+  description = "This is the AMI for the most recent version of OpenVPN access server with 10 connected devices"
+  default = "ami-037ff6453f0855c46"
+}
